@@ -1,12 +1,13 @@
 {
   "name": "expo-android-change-gradle-distribution-url",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "commonjs",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
   "packageManager": "pnpm@9.15.2",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node script/index.js",
+    "build": "tsup",
     "ci:publish": "pnpm publish --no-git-checks",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
@@ -20,9 +21,15 @@
   "license": "ISC",
   "description": "Expo Android Change Gradle Distribution Url",
   "files": [
-    "index.js"
+    "dist"
   ],
   "devDependencies": {
-    "prettier": "^3.7.4"
+    "prettier": "^3.7.4",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@expo/config-plugins": "^54.0.4",
+    "@types/node": "^25.0.3"
   }
 }
