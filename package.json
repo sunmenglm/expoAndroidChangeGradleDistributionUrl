@@ -6,7 +6,7 @@
   "packageManager": "pnpm@9.15.2",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "",
+    "build": "node script/index.js",
     "ci:publish": "pnpm publish",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
