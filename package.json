@@ -9,10 +9,8 @@
   "author": "sunlinxi",
   "license": "ISC",
   "description": "Expo Android Change Gradle Distribution Url",
-  "bin": {
-    "expo-android-change-gradle-distribution-url": "./index.js"
-  },
   "files": [
     "index.js"
   ]
+  
 }
