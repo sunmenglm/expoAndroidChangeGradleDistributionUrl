@@ -24,6 +24,8 @@
     "dist"
   ],
   "devDependencies": {
+    "@expo/config-plugins": "^54.0.4",
+    "@types/node": "^25.0.3",
     "prettier": "^3.7.4",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
