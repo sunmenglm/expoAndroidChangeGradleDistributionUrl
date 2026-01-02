@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 function sayhello(name) {
-  return `hello ${name}`
+  return `hello ${name}`;
 }
 
 module.exports = {
   sayhello
-}
+};
 // import { withGradleProperties, type ConfigPlugin } from "@expo/config-plugins";
 // import fs from "node:fs";
 

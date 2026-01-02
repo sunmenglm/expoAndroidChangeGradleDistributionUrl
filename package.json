@@ -2,17 +2,26 @@
   "name": "expo-android-change-gradle-distribution-url",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "",
-    "ci:publish": "pnpm publish"
+    "ci:publish": "pnpm publish",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
-  "keywords": ["Expo", "Android","Gradle", "Distribution"],
+  "keywords": [
+    "Expo",
+    "Android",
+    "Gradle",
+    "Distribution"
+  ],
   "author": "sunlinxi",
   "license": "ISC",
   "description": "Expo Android Change Gradle Distribution Url",
   "files": [
     "index.js"
-  ]
-  
+  ],
+  "devDependencies": {
+    "prettier": "^3.7.3"
+  }
 }
